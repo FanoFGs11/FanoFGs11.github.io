@@ -1,0 +1,147 @@
+/* Estilos generales y de fondo */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef2f7;
+    background-image: url('img/fondo.jpg');
+    background-repeat: repeat;
+    color: #333;
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url('img/fondo.jpg');
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex; /* Uso de Flexbox */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    background-image: url('img/fondo.jpg');
+    padding: 15px 30px;
+    border-bottom: 2px solid #007bff;
+}
+
+.logo {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen (igual al ancho) */
+    border-radius: 50%; /* Redondeo al 50% para crear un círculo */
+}
+
+.header-title {
+    text-align: right;
+}
+
+header h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+.author {
+    margin: 0;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px 30px;
+}
+
+h2, h3 {
+    color: #0056b3;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+h3 u {
+    text-decoration: none; /* Quitamos el subrayado por defecto para controlarlo nosotros */
+}
+
+h4 {
+    margin-top: 0;
+}
+
+/* Contenedor Flex para las columnas */
+.flex-container {
+    display: flex; /* Uso de Flexbox */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin-top: 20px;
+}
+
+/* Estilo de las tarjetas (para definiciones y analogía) */
+.card {
+    flex: 1; /* Permite que cada tarjeta ocupe el mismo espacio */
+    border: 2px solid #000000; /* Borde */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.card p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.icon {
+    width: 80px;
+    margin-top: 15px;
+}
+
+.analogy-image {
+    display: block;
+    max-width: 60%;
+    margin: 20px auto 0 auto;
+    box-shadow: 10px 20px 30px #000000;
+}
+
+/* Línea horizontal */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #007bff;
+    margin: 30px 0;
+}
+
+/* Caja de resumen con borde y sombra */
+.summary-box {
+    border: 2px solid #000000; /* Borde */
+    padding: 10px 20px;
+    background-image: url('img/fondo.jpg');
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05); /* Sombra */
+}
+
+.summary-box p {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/* Formato de párrafo resaltado */
+strong {
+    color: #0056b3;
+}
+
+strong u {
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #fdc0c0; /* Resaltado estilo subrayado */
+}
+
+/* Estilos para la imagen con sombra */
+.imgSombra {
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 10px 15px #888; /* x-offset, y-offset, blur-radius, color */
+}
