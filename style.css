@@ -117,7 +117,7 @@ hr {
 .summary-box {
     border: 2px solid #000000; /* Borde */
     padding: 10px 20px;
-    background-image: url('img/fondo.jpg');
+    background-color: #f8f9fa;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05); /* Sombra */
 }
@@ -144,4 +144,5 @@ strong u {
     text-align: center;
     margin-top: 20px;
     box-shadow: 5px 10px 15px #888; /* x-offset, y-offset, blur-radius, color */
+
 }
